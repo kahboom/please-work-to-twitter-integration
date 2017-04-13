@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: periodic-timer:every?period=10000
+  - kind: endpoint
+    uri: twitter-mention:?accessToken=&accessTokenSecret=&consumerKey=&consumerSecret=
